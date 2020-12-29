@@ -1,7 +1,7 @@
-export type NoteType = {
+export interface NoteType {
   note: string;
   color: 'black' | 'white';
-};
+}
 
 export const notes: NoteType[] = [
   {
